@@ -260,3 +260,15 @@ Next up, let's create a way to clear the form after we save a new item. Then let
 
 Let's add a trash can icon to our delete button. Here is the svg path:
 svg path: M3 6v18h18v-18h-18zm5 14c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm4-18v2h-20v-2h5.711c.9 0 1.631-1.099 1.631-2h5.315c0 .901.73 2 1.631 2h5.712z
+
+************************************
+
+## branch 17
+
+Now let's move our data to a folder called server. Then we need to instal some packages
+
+```js
+npm install express cors mssql
+```
+
+Now we are going to setup our express server. We are also going to wire this up to connect to our local Sql server to make it a little nicer. Then we need to add another script to the package.json so we can start and test out our server.
