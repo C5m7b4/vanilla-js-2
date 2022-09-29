@@ -21,6 +21,12 @@ const getTotal = () => {
   }, 0);
 };
 
+const clearForm = () => {
+  Object.keys(state.currentItem).map((key) => {
+    document.getElementById(key).value = "";
+  });
+};
+
 const getCheapestItem = () => {
   return filteredData.reduce((acc, cur) => {
     if (acc.price < cur.price) {
@@ -212,6 +218,7 @@ const saveItem = () => {
   state.items = copiedItems;
   filteredData = copiedItems;
   buildTable();
+  clearForm();
 };
 
 const saveButton = document.getElementById("save-item");

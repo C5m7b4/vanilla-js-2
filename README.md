@@ -247,3 +247,9 @@ Here we are only going to add a formatMoney function and apply that to our table
 ## branch 14
 
 We need to make a small modification to the price in the exercise to ensure that is is being treated as a number. Then we are going to wire up the Save Item butto with an event listener. Next we will create a function to create our categories. Lastly we will modify the css so that both select fields share the same styles.
+
+************************************
+
+## branch 15
+
+Next up, let's create a way to clear the form after we save a new item. Then let's test out adding items to our grid.
