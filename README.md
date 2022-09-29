@@ -182,3 +182,9 @@ We are also going to add a utils.js and create an isValid function to use all th
 Then we are going to add a little style to our app so it looks nice
 
 Then we are going to just do some console logs to test everything out.
+
+************************************
+
+## branch 6
+
+Let's add some actual state to our application
