@@ -292,3 +292,9 @@ npm install avion
 
 Then we need to add a bable config file
 Then we are going to import avion. This is a npm package that I have written very similar to axios. We are going to use this to communicate with our server. We are going to have to restart webpack in order for our .babelrc file to take. Now we can add a debugger statement and see that our data should be getting fetches, but the page does not update with the new data. That's becuase our little app does not understand the change to this state. We will cover that in the next branch
+
+************************************
+
+## branch 19
+
+Here we are going to add a CustomEvent on the window so we can detech when the data is finished loading. Because of this, we are going to need a harness function and we are going to have to move some code into that so things execute properly.
