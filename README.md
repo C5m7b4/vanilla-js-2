@@ -217,3 +217,9 @@ We need to tr-${id} because we are taking a substring in the code
 ```js
 deleteItem(+e.currentTarget.id.substring(3));
 ```
+
+************************************
+
+## branch 10
+
+Now let's introduce the concept of currying a function so we can apply partial application to it to get some reuseability.
