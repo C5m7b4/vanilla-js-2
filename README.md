@@ -223,3 +223,9 @@ deleteItem(+e.currentTarget.id.substring(3));
 ## branch 10
 
 Now let's introduce the concept of currying a function so we can apply partial application to it to get some reuseability.
+
+************************************
+
+## branch 11
+
+Let's modify the index.html a little bit first. Then we are going to calculate the cheapest item and dislay that to our users. Then we will add a little style to our project, followed by calculating and dislaying the most expensive item. This is going to go over the reducer function so that we have covered map, filter, and reduce, and well as currying functions.
