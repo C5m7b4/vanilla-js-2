@@ -229,3 +229,9 @@ Now let's introduce the concept of currying a function so we can apply partial a
 ## branch 11
 
 Let's modify the index.html a little bit first. Then we are going to calculate the cheapest item and dislay that to our users. Then we will add a little style to our project, followed by calculating and dislaying the most expensive item. This is going to go over the reducer function so that we have covered map, filter, and reduce, and well as currying functions.
+
+************************************
+
+## branch 12
+
+Now let's introduce a new concept. Introducing Functional composition. We can take small functions that do just one thing and compose them together to do many things in a point free way. We can discuss point free programming, but it mostly just includes not passing arguments to functions. We let the composition pass the arguments. So, The first function takes in teh array of objects to operate on and then the output of that function becomes the input of the next function in the chain.
