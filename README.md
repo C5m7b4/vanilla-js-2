@@ -188,3 +188,9 @@ Then we are going to just do some console logs to test everything out.
 ## branch 6
 
 Let's add some actual state to our application
+
+************************************
+
+## branch 7
+
+Now we are going to create the logic and styles to display our data as a table on the site
