@@ -235,3 +235,9 @@ Let's modify the index.html a little bit first. Then we are going to calculate t
 ## branch 12
 
 Now let's introduce a new concept. Introducing Functional composition. We can take small functions that do just one thing and compose them together to do many things in a point free way. We can discuss point free programming, but it mostly just includes not passing arguments to functions. We let the composition pass the arguments. So, The first function takes in teh array of objects to operate on and then the output of that function becomes the input of the next function in the chain.
+
+************************************
+
+## branch 13
+
+Here we are only going to add a formatMoney function and apply that to our table and then a totals to the grid for our prices.
