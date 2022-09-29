@@ -96,3 +96,47 @@ npm install --save-dev css-loader
 ```
 
 Add styles.css and add a google font and setup our basic styling. We will also add a div tag to our index.html so our background will work.
+
+************************************
+
+## branch 3
+
+Setup eslint
+
+```js
+npm install --save-dev eslint eslint-config-prettier eslint-plugin-import
+```
+
+Now we want to see linting errors so we need one more plugin
+
+```js
+npm install eslint-webpack-plugin --save-dev
+```
+
+And lets add a linting script to our package.json
+
+```json
+"lint": "eslint src/*.js"
+```
+
+Now let's make sure that eslint is working by creating an unused variable:
+index.js:
+
+```js
+const unused = '';
+```
+
+So let's say that we don't like that the fact that the error is popping up on our main display, we only want the error to show up in the console, we can add this to the webpack config file:
+
+```js
+  devServer: {
+    static: "./dist",
+    port: 3007,
+    ++compress: true,
+    ++client: {
+      overlay: false,
+    },
+  },
+```
+
+Let's remove our unused variable and make sure the error goes away.
