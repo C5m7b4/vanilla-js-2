@@ -194,3 +194,9 @@ Let's add some actual state to our application
 ## branch 7
 
 Now we are going to create the logic and styles to display our data as a table on the site
+
+************************************
+
+## branch 8
+
+Lets build a function that will grab unique values from our data, and dynamically display them in a select box on the site. This will allow us to filter our data in our table with dynamic generation using map and filter. These are foundational functional javascript paradigms.
