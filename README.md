@@ -29,3 +29,10 @@ git remote add origin https://github.com/C5m7b4/vanilla-js-2.git
 
 git push -u origin master
 ```
+
+Now let's create a new branch and get started with things
+
+```js
+git checkout -b branch1
+
+```
