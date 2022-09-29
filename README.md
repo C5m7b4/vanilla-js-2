@@ -72,3 +72,27 @@ We also need to add a start script to our package.json like so
 For safe keeping, we will also create a src folder and add an index.js with a console comment letting us know that everything is ready to go.
 
 Now, let setup the meat and potatoes of our config. We are going to create three webpack configs. The common one, one for development, and one for production
+
+************************************
+
+## branch 2
+
+install MiniCssExtractPlugin
+
+```js
+npm install --save-dev mini-css-extract-plugin
+```
+
+add rule for .js file to webpack.config.js install babel-loader and @babel/preset-env
+
+```js
+npm install --save-dev babel-loader @babel/preset-env
+```
+
+Now let's add a rule to webpack config for css loading
+
+```js
+npm install --save-dev css-loader
+```
+
+Add styles.css and add a google font and setup our basic styling. We will also add a div tag to our index.html so our background will work.
