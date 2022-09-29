@@ -253,3 +253,10 @@ We need to make a small modification to the price in the exercise to ensure that
 ## branch 15
 
 Next up, let's create a way to clear the form after we save a new item. Then let's test out adding items to our grid.
+
+************************************
+
+## branch 16
+
+Let's add a trash can icon to our delete button. Here is the svg path:
+svg path: M3 6v18h18v-18h-18zm5 14c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm5 0c0 .552-.448 1-1 1s-1-.448-1-1v-10c0-.552.448-1 1-1s1 .448 1 1v10zm4-18v2h-20v-2h5.711c.9 0 1.631-1.099 1.631-2h5.315c0 .901.73 2 1.631 2h5.712z
