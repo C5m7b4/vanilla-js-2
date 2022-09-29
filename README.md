@@ -140,3 +140,9 @@ So let's say that we don't like that the fact that the error is popping up on ou
 ```
 
 Let's remove our unused variable and make sure the error goes away.
+
+************************************
+
+## branch 4
+
+Now let's just stub out our index.html and get is ready for some development using javascript
