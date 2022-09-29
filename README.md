@@ -272,3 +272,23 @@ npm install express cors mssql
 ```
 
 Now we are going to setup our express server. We are also going to wire this up to connect to our local Sql server to make it a little nicer. Then we need to add another script to the package.json so we can start and test out our server.
+
+************************************
+
+## branch 18
+
+Before we can use this server, we need to add the ability to use async/await so we need babel before we can implement this feature:
+
+```js
+npm install @babel/preset-env babel-loader @babel/plugin-transform-runtime --save-dev
+```
+
+We are also going to install some normal dependencies
+
+```js
+npm install avion
+
+```
+
+Then we need to add a bable config file
+Then we are going to import avion. This is a npm package that I have written very similar to axios. We are going to use this to communicate with our server. We are going to have to restart webpack in order for our .babelrc file to take. Now we can add a debugger statement and see that our data should be getting fetches, but the page does not update with the new data. That's becuase our little app does not understand the change to this state. We will cover that in the next branch

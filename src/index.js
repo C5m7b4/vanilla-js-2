@@ -1,7 +1,38 @@
 console.log("you are ready to code bro");
-import { data } from "./data";
+// import { data } from "./data";
 import { isValid, formatMoney } from "./utils";
+import avion from "avion";
 import "./styles.css";
+
+let data = [];
+
+async function getData() {
+  let json = await avion({
+    method: "GET",
+    cors: true,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    url: "http://localhost:3000",
+  });
+  return json;
+}
+
+getData()
+  .then((res) => {
+    debugger;
+    const j = res.data;
+    if (j.error === 0) {
+      data = j.data;
+      filteredData = j.data;
+      state.items = j.items;
+    } else {
+      console.log(j.msg);
+    }
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 let filteredData = data;
 
