@@ -200,3 +200,20 @@ Now we are going to create the logic and styles to display our data as a table o
 ## branch 8
 
 Lets build a function that will grab unique values from our data, and dynamically display them in a select box on the site. This will allow us to filter our data in our table with dynamic generation using map and filter. These are foundational functional javascript paradigms.
+
+************************************
+
+## branch 9
+
+Now lets build out our delete functionality
+Dont forget to add this to the tr for the delete functionality
+
+```js
+id="tr-${id}"
+```
+
+We need to tr-${id} because we are taking a substring in the code
+
+```js
+deleteItem(+e.currentTarget.id.substring(3));
+```
